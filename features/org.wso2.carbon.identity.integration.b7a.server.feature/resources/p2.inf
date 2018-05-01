@@ -1,0 +1,4 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../lib); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../lib/runtimes); \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../../lib/runtimes/ballerina);
